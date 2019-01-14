@@ -1,0 +1,33 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, strong, b, i, ol, ul, li, form, label, input, textarea, button, header, footer, main, section, nav, article, aside {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  overflow: hidden;
+  background: url("../images/sky.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.dealersair-img{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
